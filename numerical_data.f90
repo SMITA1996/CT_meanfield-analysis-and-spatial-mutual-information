@@ -21,9 +21,9 @@
 	double precision	    ::rxv,dfv,x,y,t,r1,r2,r3,r4,u,g,u3,suma,meand
 	
 	
-	open(2000,file='noise-for_sigma0.125.dat')
+	open(10000,file='noise-for_sigma0.125.dat')
 
-	open(200,file='pat-tau0.1.dat')
+	open(1000,file='pat-tau0.1.dat')
 	
 	
 	
@@ -145,7 +145,7 @@
 	  meand=suma/(nx*ny)		
 	 
 	  t0=t0+1
-	  write(2000,*)c,t0,meand
+	  write(10000,*)c,t0,meand
 		
 	  c=c+1d-2
 	   
