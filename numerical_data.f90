@@ -23,7 +23,7 @@
 	
 	open(2000,file='noise-for_sigma0.125.dat')
 
-	open(200,file='pat-tau_0.1.dat')
+	open(200,file='pat-tau0.1.dat')
 	
 	
 	
